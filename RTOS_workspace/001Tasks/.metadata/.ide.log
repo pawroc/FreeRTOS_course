@@ -1,0 +1,7 @@
+2022-02-19 21:30:35,442 [INFO] Activator:177 - 
+
+
+2022-02-19 21:30:35,443 [INFO] Activator:178 - !SESSION log4j initialized
+2022-02-19 21:30:37,156 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-02-19 21:31:00,643 [INFO] RetryExec:97 - I/O exception (java.net.SocketException) caught when processing request to {s}->https://download.eclipse.org:443: Socket operation on nonsocket: configureBlocking
+2022-02-19 21:31:00,644 [INFO] RetryExec:113 - Retrying request to {s}->https://download.eclipse.org:443
