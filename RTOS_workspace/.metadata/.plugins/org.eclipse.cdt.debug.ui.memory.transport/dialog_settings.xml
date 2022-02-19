@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="EXPORT_DIALOG">
+		<item key="Start" value="0x200132b0"/>
+		<item key="End" value="0x200142ac"/>
+		<item key="Initial address" value="0x200132b0"/>
+		<item key="File" value="C:\Workspace\records\001_Priorities_not_equal_preemptive_scheduler_taskYIELD.SVDat"/>
+		<item key="SELECTED_EXPORTER" value="rawbinary"/>
+	</section>
+</section>
