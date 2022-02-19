@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FreeRTOS_projects/aaa&apos; to &apos;ThirdParty&apos;" description="Rename resource &apos;aaa&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="aaa" name="ThirdParty" stamp="1645308191369" updateReferences="true"/>
+</session>

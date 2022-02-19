@@ -1,31 +1,14 @@
-22:06:35 **** Incremental Build of configuration Debug for project 001Tasks ****
+23:06:12 **** Incremental Build of configuration Debug for project FreeRTOS_projects ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I"C:/Workspace/RTOS_workspace/001Tasks/ThirdParty/SEGGER/OS" -I"C:/Workspace/RTOS_workspace/001Tasks/ThirdParty/SEGGER/Config" -I"C:/Workspace/RTOS_workspace/001Tasks/ThirdParty/SEGGER/SEGGER" -I"C:/Workspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS" -I"C:/Workspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/include" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"C:/Workspace/RTOS_workspace/001Tasks/ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "001Tasks.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Workspace\RTOS_workspace\001Tasks\STM32F411VETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001Tasks.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: 001Tasks.elf
- 
-arm-none-eabi-size   001Tasks.elf 
-arm-none-eabi-objdump -h -S  001Tasks.elf  > "001Tasks.list"
-arm-none-eabi-objcopy  -O binary  001Tasks.elf  "001Tasks.bin"
+arm-none-eabi-size   FreeRTOS_projects.elf 
    text	   data	    bss	    dec	    hex	filename
-  30168	    128	  84648	 114944	  1c100	001Tasks.elf
+  30248	    128	  84648	 115024	  1c150	FreeRTOS_projects.elf
 Finished building: default.size.stdout
  
-Finished building: 001Tasks.bin
- 
-Finished building: 001Tasks.list
- 
-22:06:39 **** Incremental Build of configuration Debug for project 001Tasks ****
+23:06:27 **** Incremental Build of configuration Debug for project FreeRTOS_projects ****
 make -j8 all 
-arm-none-eabi-size   001Tasks.elf 
+arm-none-eabi-size   FreeRTOS_projects.elf 
    text	   data	    bss	    dec	    hex	filename
-  30168	    128	  84648	 114944	  1c100	001Tasks.elf
-Finished building: default.size.stdout
- 
-22:06:43 **** Incremental Build of configuration Debug for project 001Tasks ****
-make -j8 all 
-arm-none-eabi-size   001Tasks.elf 
-   text	   data	    bss	    dec	    hex	filename
-  30168	    128	  84648	 114944	  1c100	001Tasks.elf
+  30248	    128	  84648	 115024	  1c150	FreeRTOS_projects.elf
 Finished building: default.size.stdout
  
